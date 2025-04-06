@@ -33,12 +33,12 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
 class solution:
 
     def maximum_sub(self, nums: int) -> int:    #brute force approach
-        max_sum =  float('-inf')
+        max_sum =  float('-inf')        # save the outer loop sum e.g. initializing with -inf as it can go below 0 as -1, -3,..etc.
         for i in range(len(nums)):
-            current_sum = 0
+            current_sum = 0             #save the inner loop sum
             for j in range(i, len(nums)):
-                current_sum += nums[j]
-                max_sum = max(max_sum, current_sum)
+                current_sum += nums[j]      #inner loop sum calculation
+                max_sum = max(max_sum, current_sum)     #check for max sum between both loops
         
         return max_sum
 
