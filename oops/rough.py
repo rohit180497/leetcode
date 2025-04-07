@@ -1,11 +1,53 @@
-lst = [1,2 ,3,4,5]
-my_str = "hello world"
-my_dict = {"name": "John", "age": 30, "city": "New York"}
-my_tuple = (1, 2, 3, 4, 5)  
-my_int = 10
+lst = [1,2,3]
+my_str = "mlops playlist"
+my_int = 155
 
-print(type(lst))  # <class 'list'>
-print(type(my_str))  # <class 'str'>
-print(type(my_dict))  # <class 'dict'>
-print(type(my_tuple))  # <class 'tuple'>
-print(type(my_int))  # <class 'int'>
+# print(type(my_int))
+# lst.capitalize()
+# my_str = my_str.capitalize()
+
+# print(lst)
+
+# a = 'x'
+# b = 'y'
+# print(a+b)
+
+from oops_proj import chatbook
+user1 = chatbook()
+print(user1.id)
+
+
+
+
+
+
+
+# Using static method directly from class rather than obj
+# chatbook.set_id(10)
+
+# user2 = chatbook()
+# print(user2.id)
+
+# user3 = chatbook()
+# print(user3.id)
+
+
+
+# getter and setter
+# print(user1.get_name())
+# user1.set_name("Agent X")
+# print(user1.get_name())
+
+
+
+
+# function vs method below
+# lst = [1,2,3]
+
+# # function
+# a1 = len(lst)
+# print(a1)
+
+# # method
+# user1 = chatbook()
+# user1.sendmsg()
