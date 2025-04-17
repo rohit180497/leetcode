@@ -1,9 +1,11 @@
-An algorithm is a step-by-step process for solving a computational problem
+An algorithm is a step-by-step process for solving a computational problem:
 - a program is basically an implementation of an algorithm (one or more algorithms to be precise)
 - the algorithm is usually written by someone who has domain knowledge (this can be a specialist like a doctor, or the programmer himself) whereas the program is written by a programmer/software-engineer
 - the algorithm is analyzed (time/space complexity analysis) whereas the program is measured/tested
 
 
-Priori analysis and Posteriori Testing
+Priori analysis and Posteriori Testing:
 - an algorithm is programming language and hardware independent, it can be analyzed using complexity analysis (space/time)
 - a program is an implementation, thus language dependent, it can be executed and the execution-time/memory-usage can be measured
+
+
